@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+  <head>
+    <title>Skylyfe | Website</title>
+    <meta name="description" content="Skylyfe is a SkyBlock server. You can join with the IP 'play.skylyfe.net'.">
+    <meta property="og:title" content="Skylyfe - Official Website">
+    <meta property="og:site_name" content="Skylyfe">
+    <meta property="og:description" content="Skylyfe is a community focused SkyBlock server. You can join with the IP 'play.skylyfe.net'.">
+    <meta property="og:image" content="/img/skylyfe_card.webp">
+    <meta property="og:url" content="https://skylyfe.net/">
+    <meta name="twitter:card" content="summary_large_image">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.9.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+
+    <script defer src="/__/firebase/8.9.0/firebase-analytics.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=false"></script>
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script defer src="js/firefly.js" type="text/javascript"></script>
+	<script defer src="js/main.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <!-- In the img folder, upload your logo -->
+        <!-- Make sure you name it 'logo.png' or update the code below -->
+        <img src="img/logo.webp" alt="MyServer logo">
+      </div>
+  
+      <div class="items">
+        <!-- Replace # with your forum URL-->
+        <a href="https://discord.gg/ePdJr3nra7" target="_blank" class="item forums">
+        <div>
+          <img src="img/forums.webp" alt="Minecraft forums icon" class="img">
+          <p class="subtitle">chat on our</p>
+          <p class="title">Discord</p>
+        </div>
+        </a>
+
+        <!-- Replace # with your vote URL -->
+        <a href="https://store.skylyfe.net" target="_blank" class="item vote">
+          <div>
+            <img src="img/vote.webp" alt="Minecraft voting icon" class="img">
+            <p class="subtitle">support us by</p>
+            <p class="title">Wiki</p>
+          </div>
+          </a>
+  
+        <!-- Replace # with your store URL -->
+        <a href="https://store.skylyfe.net" target="_blank" class="item store">
+        <div>
+          <img src="img/store.webp" alt="Minecraft store icon" class="img">
+          <p class="subtitle">donate on our</p>
+          <p class="title">Store</p>
+        </div>
+        </a>
+  
+        <!-- Replace # with your vote URL -->
+        <a href="https://store.skylyfe.net" target="_blank" class="item vote">
+        <div>
+          <img src="img/vote.webp" alt="Minecraft voting icon" class="img">
+          <p class="subtitle">support us by</p>
+          <p class="title">Rules</p>
+        </div>
+        </a>
+
+        <!-- Replace # with your vote URL -->
+        <a href="https://store.skylyfe.net" target="_blank" class="item vote">
+          <div>
+            <img src="img/vote.webp" alt="Minecraft voting icon" class="img">
+            <p class="subtitle">support us by</p>
+            <p class="title">Voting</p>
+          </div>
+          </a>
+  
+      </div>
+
+      <div class="playercount">
+        <!-- Replace play.cubecraft.net with your server IP address -->
+        <!-- Do it on both line 66 and line 67 -->
+        <!-- Please set both your IP and port -->
+        <p>Join <span class="sip" data-ip="play.skylyfe.net" data-port="25565">
+        </span> other players on <span class="ip">play.skylyfe.net</span></p>
+      </div>
+    </div>
+  </body>
+</html>
